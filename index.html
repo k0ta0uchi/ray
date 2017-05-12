@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="./lib/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="./css/Common.css" />
+        <link rel="stylesheet" href="./css/ToolbarArea.css" />
+        <link rel="stylesheet" href="./css/CommentArea.css" />
+        <link rel="stylesheet" href="./css/SendCommentArea.css" />
+        <link rel="stylesheet" href="./css/InformationArea.css" />
+        <link rel="stylesheet" href="./css/StatusArea.css" />
+        <link rel="stylesheet" href="./css/Scrollbar.css" />
+        <link rel="stylesheet" href="./css/Emoticon.css" />
+        <title>Ray - Beam Comment Viewer</title>
+    </head>
+    <body>
+        <div id="ToolbarArea" class="row">
+            <div class="input-field col s5">
+                <i id="ConnectButton" class="material-icons prefix">power</i>
+                <input id="ChannelInput" type="text">
+            </div>
+        </div>
+        <div id="CommentArea">
+            <div id="HeaderSpacer"></div>
+            <div id="Header">
+                <div class="Row">
+                    <div class="Icon"></div>
+                    <div class="UserName"><span></span></div>
+                    <div class="Time"><span></span></div>
+                    <div class="Comment"><span></span></div>
+                </div>
+            </div>
+            <div id="Body">
+                <div id="Comment"></div>
+            </div>
+        </div>
+        <div id="InformationArea">
+            <div class="Row">
+                <div class="Icon">
+                    <span><img src=""></span>
+                </div>
+                <div class="Col"></div>
+            </div>
+        </div>
+        <div id="SendCommentArea">
+            <div id="InputCommentArea">
+                <button id="EmoticonButton">
+                    <i class="material-icons grey-text text-lighten-1">insert_emoticon</i>
+                </button>
+                <input type="text" class="InputComment" tabindex="1"></input>
+            </div>
+            <canvas id="StringWidth"></canvas>
+        </div>
+        <div id="StatusArea">
+            <div id="Status"></div>
+            <div id="Login"><span></div>
+        </div>
+        <div id="Emoticon" class="z-depth-1">
+            <div id="EmoticonClose"><i class="material-icons grey-text text-lighten-1">cancel</i></div>
+        </div>
+        <script src="./js/WindowOnload.js"></script>
+        <script src="./lib/jquery-3.2.1.min.js"></script>
+        <script src="./lib/materialize.min.js"></script>
+        <script src="./js/Settings.js"></script>
+        <script src="./js/Common.js"></script>
+        <script src="./js/Menubar.js"></script>
+        <script src="./js/ToolbarArea.js"></script>
+        <script src="./js/BeamManager.js"></script>
+        <script src="./js/BouyomiChanManager.js"></script>
+        <script src="./js/CommentArea.js"></script>
+        <script src="./js/SendCommentArea.js"></script>
+        <script src="./js/InformationArea.js"></script>
+        <script src="./js/i18n.js"></script>
+        <script src="./js/StatusArea.js"></script>
+        <script src="./js/Emoticon.js"></script>
+        <script src="./js/Init.js"></script>
+    </body>
+</html>

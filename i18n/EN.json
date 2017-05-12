@@ -1,0 +1,87 @@
+{
+    "Meta": {
+        "Code": "EN",
+        "Name": "English"
+    },
+    "Menu": {
+        "File": {
+            "File": "File",
+            "ConnectMyChannel": "Connect to My Channel",
+            "ConnectChannel": "Connect to Channel",
+            "DisconnectChannel": "Disconnect",
+            "Exit": "Exit"
+        },
+        "Settings": {
+            "AlwaysOnTop": "Show Always On Top",
+            "Setting": "Settings"
+        }
+    },
+    "Header": {
+        "UserName": "User Name",
+        "Time": "Time",
+        "Comment": "Comment"
+    },
+    "Information": {
+        "Title": "Title",
+        "UserId": "User ID",
+        "UserLevel": "Level",
+        "UserName": "User Name",
+        "ViewersTotal": "Total Viewers",
+        "ViewersCurrent": "Current Viewers"
+    },
+    "Status": {
+        "CheckUser": "Checking user...",
+        "LoggedInAs": "Logged in as: ",
+        "NoUser": "User not set."
+    },
+    "SendComment": {
+        "Placeholder": "Type to chat..."
+    },
+    "Settings": {
+        "Tabs": {
+            "Tab1": "General",
+            "Tab2": "Bouyomichan",
+            "Tab3": "Other"
+        },
+        "BeamAccount": {
+            "Legend": "BEAM Connection Setting",
+            "UserNamePlaceholder": "User Name",
+            "PasswordPlaceholder": "Password",
+            "AutoConnect": "Connect to my channel when the application launched"
+        },
+        "Whisper": {
+            "Legend": "About Whisper",
+            "ShowWhisper": "Show Whisper",
+            "CallWhisper": "Read Whisper using Bouyomichan"
+        },
+        "BouyomiChan": {
+            "Legend": "BouyomiChan Link",
+            "EnableLink": "Enable BouyomiChan link",
+            "File": "File",
+            "Location": "BouyomiChan location (Click to set)",
+            "CallUserName": {
+                "Legend": "Call User Name",
+                "Off": "Don't call User Name",
+                "Before": "Call before the comment",
+                "After": "Call after the comment"
+            }
+        },
+        "Other": {
+            "Legend": "Other",
+            "MaxDisplayComment": "Max display number:",
+            "AltDescription": "(0 to be unlimited)",
+            "CheckUpdate": "Check updates when launched"
+        },
+        "Language": "Language",
+        "NoRemoteTalk": "No RemoteTalk.exe found.\nBouyomiChan.exe is not selected nor required files are missing."
+    },
+    "ErrorMessage": {
+        "ChannelNotFound": "Couldn't find channel.",
+        "StatusError": "Error: "
+    },
+    "SystemMessage": {
+        "ConnectingTo": "Connecting to ",
+        "ConnectedSuccessfully": "Connected successfully.",
+        "Disconnected": "Disconnected"
+    }
+}

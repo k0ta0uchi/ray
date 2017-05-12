@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="./lib/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="./css/Common.css" />
+        <link rel="stylesheet" href="./css/Settings.css" />
+        <title>Ray - Settings</title>
+    </head>
+    <body id="Settings">
+        <div class="row">
+            <div class="col s12" id="Tabs">
+                <ul class="tabs">
+                    <li class="tab col s3"><a href="#Tabs-1"></a></li>
+                    <li class="tab col s3"><a href="#Tabs-2"></a></li>
+                    <li class="tab col s3"><a href="#Tabs-3"></a></li>
+                </ul>
+            </div>
+            <div id="Tabs-1" class="col s12">
+                <fieldset id="BeamAccount">
+                    <legend></legend>
+                    <p id="UserName">
+                        <input id="UserNameInput" type="text">
+                    </p>
+                    <p id="Password">
+                        <input id="PasswordInput" type="password">
+                    </p>
+                    <p id="AutoConnect">
+                        <input id="AutoConnectCheckbox" type="checkbox">
+                        <label for="AutoConnectCheckbox"><label>
+                    </p>
+                </fieldset>
+                <fieldset id="Whisper">
+                    <legend></legend>
+                    <p id="ShowWhisper">
+                        <input id="ShowWhisperCheckbox" type="checkbox">
+                        <label for="ShowWhisperCheckbox"><label>
+                    </p>
+                    <p id="CallWhisper">
+                        <input id="CallWhisperCheckbox" type="checkbox">
+                        <label for="CallWhisperCheckbox" class="checkbox"></label>
+                    </p>
+                </fieldset>
+                <fieldset id="Language">
+                    <legend></legend>
+                    <div class="input-field col s6">
+                        <select></select>
+                    </div>
+                </fieldset>
+            </div>
+            <div id="Tabs-2" class="col s12">
+                <fieldset id="BouyomiChan">
+                    <legend></legend>
+                    <p id="CallBouyomiChan">
+                        <input id="CallBouyomiChanCheckbox" type="checkbox">
+                        <label for="CallBouyomiChanCheckbox"><label>
+                    </p>
+                    <p id="BouyomiChanLocation">
+                        <div class="row">
+                            <div class="file-field input-field col s2">
+                                <div class="btn grey lighten-2 black-text">
+                                    <span id="BouyomiChanLocationFileText"></span>
+                                    <input id="BouyomiChanLocationFile" type="file" accept=".exe">
+                                </div>
+                            </div>
+                            <div class="col s10">
+                                <input id="BouyomiChanLocationInput" type="text" readonly placeholder="">
+                            </div>
+                        </div>
+                    </p>
+                    <fieldset id="CallUserNameRadio">
+                    <legend></legend>
+                    <p id="CallUserNameOff">
+                        <input name="CallUserNameRadio" id="CallUserNameOffRadio" type="radio" value="0">
+                        <label for="CallUserNameOffRadio"><label>
+                    </p>
+                    <p id="CallUserNameBefore">
+                        <input name="CallUserNameRadio" id="CallUserNameBeforeRadio" type="radio" value="1">
+                        <label for="CallUserNameBeforeRadio"><label>
+                    </p>
+                    <p id="CallUserNameAfter">
+                        <input name="CallUserNameRadio" id="CallUserNameAfterRadio" type="radio" value="2">
+                        <label for="CallUserNameAfterRadio"><label>
+                    </p>
+                    </fieldset>
+                </fieldset>
+            </div>
+            <div id="Tabs-3" class="col s12">
+                <fieldset id="Other">
+                    <legend></legend>
+                    <p id="MaxDisplayComment">
+                        <span></span>
+                        <span>
+                            <input id="MaxDisplayCommentInput" type="number" min="0" max="999" maxlength="3">
+                        </span>
+                        <span></span>
+                    </p>
+                    <!--<p id="CheckUpdate">
+                        <input id="CheckUpdateCheckbox" type="checkbox">
+                        <label for="CheckUpdateCheckbox"></label>
+                    </p>-->
+                </fieldset>
+            </div>
+        </div>
+        <div id="CloseButtons">
+            <button id="CancelButton" class="waves-effect waves-light btn grey lighten-2 black-text">Cancel</button>
+            <button id="OKButton" class="waves-effect waves-light btn grey lighten-2 black-text">OK</button>
+        </div>
+
+        <script src="./lib/jquery-3.2.1.min.js"></script>
+        <script src="./lib/materialize.min.js"></script>
+    </body>
+</html>

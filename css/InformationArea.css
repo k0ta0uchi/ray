@@ -1,0 +1,84 @@
+/* Information area */
+#InformationArea
+{
+    width: 100%;
+    height: calc(64px + 6px * 2);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+    border-top: 1px solid #ccc;
+    background-color: #fafafa;
+    font-size: 10px;
+}
+
+#InformationArea .Row
+{
+    display: flex;
+    flex-flow: row;
+}
+
+#InformationArea .Col
+{
+    display: flex;
+    flex-flow: column;
+    width: 290px;
+}
+
+#InformationArea .Col:first
+{
+    border-right: 1px solid #ccc;
+}
+
+#InformationArea .Row > div
+{
+    display: flex;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px 4px;
+}
+
+#InformationArea .Row .Icon span
+{
+    width: 48px;
+    height: 48px;
+    margin: 2px auto;
+    display: block;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+    overflow: hidden;
+}
+
+/* Icon */
+#InformationArea .Row .Icon span img
+{
+    width: 48px;
+    height: 48px;
+}
+
+#InformationArea .Col > div
+{
+    display: flex;
+    letter-spacing: -0.5px;
+}
+
+#InformationArea .Col > div > div:first-child
+{
+    width: 80px;
+    left: 0;
+    font-size: 8px;
+    padding-top: 1px;
+}
+
+#InformationArea .Col > div > div:last-child
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#InformationArea .Col span
+{
+    font-weight: bold;
+    text-decoration: underline;
+}

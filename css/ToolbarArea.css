@@ -1,0 +1,51 @@
+#ToolbarArea
+{
+    width: 100%;
+    height: 28px;
+    min-height: 28px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#ToolbarArea div
+{
+    margin: 0;
+    padding: 0;
+    height: 28px;
+}
+
+#ToolbarArea div i
+{
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#ToolbarArea div i.loading
+{
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+#ToolbarArea div input
+{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 2.5rem;
+    padding-left: 2px;
+    height: 20px;
+    border: 1px solid #9e9e9e;
+}
+
+#ToolbarArea div input[type=text]:focus:not([readonly])
+{
+    border: 1px solid black;
+    box-shadow: none;
+}
+

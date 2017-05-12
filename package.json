@@ -1,0 +1,9 @@
+{
+  "name": "ray - beam comment viewer",
+  "main": "index.html",
+  "dependencies": {
+    "beam-client-node": "^0.11.0",
+    "crypto": "0.0.3",
+    "macaddress": "^0.2.8"
+  }
+}

@@ -1,0 +1,25 @@
+/* Status area */
+#StatusArea
+{
+    height: 20px;
+    width: 100%;
+    min-width: 100%;
+    min-height: 20px;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+    display: flex;
+    /*justify-content: space-around;*/
+}
+
+#StatusArea #Login .Error
+{
+    color: #D00;
+}
+
+#StatusArea #Login
+{
+    position: absolute;
+    right: 4px;
+    padding-left: 4px;
+    border-left: 1px solid #ccc;
+}

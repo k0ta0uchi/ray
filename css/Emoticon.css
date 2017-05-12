@@ -1,0 +1,42 @@
+/* Emoticon html */
+#Emoticon {
+    position: absolute;
+    height: 354px;
+    width: 224px;
+    z-index: 2000;
+    bottom: 64px;
+    right: 8px;
+    background-color: #FFF;
+    display: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#Emoticon #EmoticonClose {
+    position: relative;
+    height: 32px;
+    width: 100%;
+}
+
+#Emoticon #EmoticonClose > i {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+#Emoticon div.icon_row {
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#Emoticon div.icon_row div {
+    padding: 4px 4px;
+    width: 32px;
+    box-sizing: border-box;
+}

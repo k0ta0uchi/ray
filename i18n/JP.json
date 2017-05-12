@@ -1,0 +1,87 @@
+{
+    "Meta": {
+        "Code": "JP",
+        "Name": "日本語"
+    },
+    "Menu": {
+        "File": {
+            "File": "ファイル",
+            "ConnectMyChannel": "マイチャンネルに接続",
+            "ConnectChannel": "チャンネルに接続",
+            "DisconnectChannel": "切断",
+            "Exit": "終了"
+        },
+        "Settings": {
+            "AlwaysOnTop": "常に最前面に表示",
+            "Setting": "設定"
+        }
+    },
+    "Header": {
+        "UserName": "ユーザー名",
+        "Time": "時間",
+        "Comment": "コメント"
+    },
+    "Information": {
+        "Title": "タイトル",
+        "UserId": "ユーザーID",
+        "UserLevel": "レベル",
+        "UserName": "ユーザー名",
+        "ViewersTotal": "視聴者数：合計",
+        "ViewersCurrent": "視聴者数：現在"
+    },
+    "Status": {
+        "CheckUser": "ユーザーを確認しています...",
+        "LoggedInAs": "接続しました：",
+        "NoUser": "ユーザーが設定されていません。"
+    },
+    "SendComment": {
+        "Placeholder": "コメント"
+    },
+    "Settings": {
+        "Tabs": {
+            "Tab1": "一般",
+            "Tab2": "棒読みちゃん",
+            "Tab3": "その他"
+        },
+        "BeamAccount": {
+            "Legend": "BEAM 接続設定",
+            "UserNamePlaceholder": "ユーザー名",
+            "PasswordPlaceholder": "パスワード",
+            "AutoConnect": "起動時に自身のチャンネルに自動接続する"
+        },
+        "Whisper": {
+            "Legend": "Whisper の扱い",
+            "ShowWhisper": "Whisper を表示する",
+            "CallWhisper": "Whisper を読み上げる"
+        },
+        "BouyomiChan": {
+            "Legend": "棒読みちゃん連携",
+            "EnableLink": "棒読みちゃん連携を有効にする",
+            "File": "ファイル",
+            "Location": "棒読みちゃんの場所 (クリックで設定する)",
+            "CallUserName": {
+                "Legend": "ユーザー名の読み上げ",
+                "Off": "ユーザー名を読み上げない",
+                "Before": "コメントの前に読み上げる",
+                "After": "コメントの後に読み上げる"
+            }
+        },
+        "Other": {
+            "Legend": "その他",
+            "MaxDisplayComment": "最大コメント表示件数 :",
+            "AltDescription": "(0 で無制限)",
+            "CheckUpdate": "起動時にアップデートを確認する"
+        },
+        "Language": "言語",
+        "NoRemoteTalk": "RemoteTalk.exe が見つかりませんでした。\nBouyomiChan.exe が選択されていないか、ファイルが不足しています。"
+    },
+    "ErrorMessage": {
+        "ChannelNotFound": "チャンネルが見つかりませんでした。",
+        "StatusError": "エラー："
+    },
+    "SystemMessage": {
+        "ConnectingTo": " に接続しています。",
+        "ConnectedSuccessfully": "接続に成功しました。",
+        "Disconnected": "切断しました。"
+    }
+}

@@ -1,0 +1,152 @@
+#CommentArea
+{
+    width: 100%;
+    height: calc(100% - (64px + 6px * 2) - (32px + 6px * 2) - 28px - 20px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.5);
+}
+
+#CommentArea .Row
+{
+    display: flex;
+    flex-flow: row;
+}
+#CommentArea .Row > div
+{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px 8px;
+}
+
+#CommentArea .Row .Icon     { width: 8.8%; min-width: calc(500px*0.088); }
+#CommentArea .Row .UserName { width: 16%; min-width: calc(500px*0.16); }
+#CommentArea .Row .Time     { width: 12%; min-width: calc(500px*0.12); }
+#CommentArea .Row .Comment  { width: 65.2%;   min-width: calc(500px*0.652); }
+
+#CommentArea #Header,
+#CommentArea #HeaderSpacer
+{
+    height: 20px;
+}
+
+#CommentArea #Header
+{
+    width: calc(100% - 12px);
+    min-width: 500px;
+    position: fixed;
+    margin-top: 1px;
+    top: 28px;
+    left: 0;
+    z-index: 100;
+}
+
+#CommentArea #Header .Row
+{
+    height: 100%;
+    background: #fff;
+}
+
+#CommentArea #Header .Row div
+{
+    height: 100%;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 10px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#CommentArea #Header .Row div:last-child
+{
+    border-right: 1px solid #ccc;
+}
+
+/* Body */
+#ViewCommentArea #Body .Row:last-child
+{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#CommentArea #Body .Row
+{
+    border-bottom: 1px solid #ecf0f1;
+}
+
+#CommentArea #Body .Row div
+{
+    border-left: 1px solid #ecf0f1;
+}
+
+#CommentArea #Body .Row span
+{
+    display: flex;
+    align-items: center;
+}
+
+/* Icon */
+#CommentArea #Body .Row .Icon span
+{
+    width: 24px;
+    height: 24px;
+    margin: 2px auto;
+    display: block;
+    border-radius: 12px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+    overflow: hidden;
+}
+
+#CommentArea #Body .Row .Icon span img
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* UserName */
+#CommentArea #Body .Row .UserName span
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Time */
+#CommentArea #Body .Row .Time span
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Comment - Links */
+#CommentArea #Body .Row .Comment span .Link
+{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #3498db;
+    word-break: break-all;
+}
+
+/* Comment - Emoticons */
+#CommentArea #Body .Row .Comment span .Emoticon
+{
+    display: inline-block;
+    border: none;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    overflow: hidden;
+}
+#CommentArea #Body .Row .Comment span .Emoticon img
+{
+    display: block;
+}
