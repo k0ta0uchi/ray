@@ -16,6 +16,10 @@ Modify files under i18n directory or add files to add languages.
 - [ ] Show list of currently watching users.
 - [ ] Ability to modify comments.
 - [ ] More information option to show on information area.
+- [ ] Use database to record logs.
+
+## Download
+[here](https://github.com/k0ta0uchi/ray/releases).
 
 ## LICENSE
 See the LICENSE file for license rights and limitations (MIT).
