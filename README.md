@@ -1,5 +1,5 @@
-# Ray - Beam Comment Viewer
-A comment viewer for the streaming service Beam.pro.
+# Ray - Mixer Comment Viewer
+A comment viewer for the lagless streaming service [Mixer](https://mixer.com/).
 
 ## Dependencies
 NW.js v0.19.5
@@ -19,7 +19,7 @@ Modify files under i18n directory or add files to add languages.
 - [ ] Use database to record logs.
 
 ## Download
-[here](https://github.com/k0ta0uchi/ray/releases).
+[Here](https://github.com/k0ta0uchi/ray/releases).
 
 ## LICENSE
 See the LICENSE file for license rights and limitations (MIT).

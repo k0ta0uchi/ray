@@ -43,8 +43,8 @@
             "Tab2": "棒読みちゃん",
             "Tab3": "その他"
         },
-        "BeamAccount": {
-            "Legend": "BEAM 接続設定",
+        "MixerAccount": {
+            "Legend": "Mixer 接続設定",
             "UserNamePlaceholder": "ユーザー名",
             "PasswordPlaceholder": "パスワード",
             "AutoConnect": "起動時に自身のチャンネルに自動接続する"

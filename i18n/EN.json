@@ -43,8 +43,8 @@
             "Tab2": "Bouyomichan",
             "Tab3": "Other"
         },
-        "BeamAccount": {
-            "Legend": "BEAM Connection Setting",
+        "MixerAccount": {
+            "Legend": "Mixer Connection Setting",
             "UserNamePlaceholder": "User Name",
             "PasswordPlaceholder": "Password",
             "AutoConnect": "Connect to my channel when the application launched"

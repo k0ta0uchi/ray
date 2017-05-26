@@ -67,8 +67,8 @@ label
 
 
 /* Generals */
-/* Beam connection setting */
-#Settings #BeamAccount > p
+/* Mixer connection setting */
+#Settings #MixerAccount > p
 {
     margin: 0;
 }

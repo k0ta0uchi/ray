@@ -44,11 +44,11 @@ class I18n
         $("ul.tabs li:nth-child(2) a").text( s.Tabs.Tab2 );
         $("ul.tabs li:nth-child(3) a").text( s.Tabs.Tab3 );
 
-        // BEAM account related
-        $("#BeamAccount legend").text( s.BeamAccount.Legend );
-        $("#UserNameInput").attr({placeholder: s.BeamAccount.UserNamePlaceholder});
-        $("#PasswordInput").attr({placeholder: s.BeamAccount.PasswordPlaceholder});
-        $("#AutoConnect label").text( s.BeamAccount.AutoConnect );
+        // Mixer account related
+        $("#MixerAccount legend").text( s.MixerAccount.Legend );
+        $("#UserNameInput").attr({placeholder: s.MixerAccount.UserNamePlaceholder});
+        $("#PasswordInput").attr({placeholder: s.MixerAccount.PasswordPlaceholder});
+        $("#AutoConnect label").text( s.MixerAccount.AutoConnect );
 
         // Whisper related
         $('#Whisper legend').text( s.Whisper.Legend );

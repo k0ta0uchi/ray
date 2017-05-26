@@ -1,6 +1,6 @@
 {
-  "name": "ray - beam comment viewer",
-  "version": "0.1-alpha",
+  "name": "ray - mixer comment viewer",
+  "version": "0.1.1-alpha",
   "main": "index.html",
   "dependencies": {
     "beam-client-node": "^0.11.0",
